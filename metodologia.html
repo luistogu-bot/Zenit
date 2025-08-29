@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Metodología Centro de Estudios Zenit - 100% online con calidad presencial. Clases en directo, apoyo continuo, material propio y plataforma 24h.">
+    <meta name="keywords" content="metodología online, clases en directo, oposiciones jaén, universidad de jaén, centro estudios zenit">
+    <title>Metodología | Centro de Estudios Zenit</title>
+    
+    <!-- Performance meta tags -->
+    <meta name="theme-color" content="#dc2626">
+    <meta name="msapplication-navbutton-color" content="#dc2626">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    
+    <!-- Performance optimizations -->
+    <link rel="preload" href="css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
+    <link rel="preload" href="images/logo-zenit-3d.webp" as="image">
+    <link rel="preload" href="js/main.js" as="script">
+    
+    <!-- Critical CSS inlined for instant rendering -->
+    <style>
+        /* Ultra-optimized critical CSS for maximum performance */
+        *{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6;color:#1f2937;will-change:scroll-position}
+        .fixed{position:fixed}.top-0{top:0}.w-full{width:100%}.z-50{z-index:50}
+        .bg-white\/95{background-color:rgba(255,255,255,.95);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+        .shadow-lg{box-shadow:0 10px 15px -3px rgba(0,0,0,.1)}
+        .max-w-6xl{max-width:72rem}.mx-auto{margin-left:auto;margin-right:auto}.px-4{padding-left:1rem;padding-right:1rem}
+        .flex{display:flex}.justify-between{justify-content:space-between}.items-center{align-items:center}.py-4{padding:1rem 0}
+        .space-x-4>:not([hidden])~:not([hidden]){margin-left:1rem}
+        .relative{position:relative}.w-16{width:4rem}.h-16{height:4rem}.object-contain{object-fit:contain}
+        .text-xl{font-size:1.25rem}.font-bold{font-weight:700}.text-white{color:#1f2937}.text-2xl{font-size:1.5rem}
+        .text-red-600{color:#dc2626;font-weight:600}.hidden{display:none}.space-x-8>:not([hidden])~:not([hidden]){margin-left:2rem}
+        .text-gray-700{color:#374151}.hover\:text-red-600:hover{color:#dc2626}.font-medium{font-weight:500}
+        .transition-colors{transition:color .2s ease}.min-h-screen{min-height:100vh}.h-24{height:6rem}
+        .scroll-smooth{scroll-behavior:smooth}
+        /* Performance optimizations */
+        img{transform:translateZ(0)}
+        .card-hover{will-change:transform}
+        /* Hero section text shadow for better readability */
+        .text-shadow{text-shadow:2px 2px 4px rgba(0,0,0,0.7),0 0 10px rgba(0,0,0,0.3)}
+        @media(min-width:640px){.sm\:w-20{width:5rem}.sm\:h-20{height:5rem}.sm\:text-2xl{font-size:1.5rem}.sm\:text-3xl{font-size:1.875rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}
+        @media(min-width:1024px){.lg\:w-24{width:6rem}.lg\:h-24{height:6rem}.lg\:text-3xl{font-size:1.875rem}.lg\:text-4xl{font-size:2.25rem}.lg\:flex{display:flex}.lg\:hidden{display:none}.lg\:px-8{padding-left:2rem;padding-right:2rem}}
+    </style>
+    
+    <link rel="icon" href="images/logo-zenit-3d.webp">
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-lg z-50" id="header">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="flex items-center space-x-4">
+                    <div class="relative w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24">
+                        <img src="images/logo-zenit-3d.webp" alt="Centro de Estudios Zenit" class="w-full h-full object-contain">
+                    </div>
+                    <div>
+                        <h1 class="text-lg sm:text-lg lg:text-xl font-bold text-gray-800">
+                            Centro de Estudios Zenit
+                        </h1>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex space-x-8" id="desktop-nav">
+                    <a href="index.html#inicio" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200">Inicio</a>
+                    <a href="index.html#servicios" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200">Oposiciones</a>
+                    <a href="metodologia.html" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200">Metodología</a>
+                    <a href="index.html#resultados" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200">Resultados</a>
+                    <a href="reserva-cita.html" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200">Reservar Cita</a>
+                    <a href="contacto.html" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200">Contacto</a>
+                </nav>
+
+                <!-- Mobile menu button -->
+                <button class="lg:hidden p-2" id="mobile-menu-button" aria-label="Toggle menu">
+                    <svg class="h-6 w-6 text-gray-600" id="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg class="h-6 w-6 text-gray-600 hidden" id="close-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="lg:hidden py-4 border-t hidden" id="mobile-menu">
+                <nav class="flex flex-col space-y-4">
+                    <a href="index.html#inicio" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 py-2">Inicio</a>
+                    <a href="index.html#servicios" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 py-2">Oposiciones</a>
+                    <a href="metodologia.html" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 py-2">Metodología</a>
+                    <a href="index.html#resultados" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 py-2">Resultados</a>
+                    <a href="reserva-cita.html" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 py-2">Reservar Cita</a>
+                    <a href="contacto.html" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-200 py-2">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Spacer to prevent content from hiding behind fixed header -->
+    <div class="h-24 sm:h-28 lg:h-32"></div>
+
+    <main>
+        <!-- Hero Section for Metodología -->
+        <section class="hero-section relative text-white pt-16 pb-40 sm:pt-20 sm:pb-52 lg:pt-24 lg:pb-64 overflow-hidden">
+            <!-- Background image -->
+            <div class="absolute inset-0" 
+                 style="
+                    background-image: url('images/students-background.jpg');
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                 "></div>
+            <!-- Blue overlay -->
+            <div class="absolute inset-0" style="background: linear-gradient(to bottom right, rgba(30, 58, 138, 0.7), rgba(185, 28, 28, 0.7));"></div>
+            
+            <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-shadow">
+                        Nuestra <span class="text-yellow-300">Metodología</span>
+                    </h1>
+                    <p class="text-xl sm:text-2xl lg:text-3xl mb-8 max-w-4xl mx-auto opacity-95 text-shadow">
+                        100% online con la calidad y cercanía de la enseñanza presencial
+                    </p>
+                    <div class="inline-block bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold shadow-lg text-lg mb-16">
+                        🎯 Modalidad 100% Online
+                    </div>
+
+                    <!-- Features Grid - Moved inside hero section -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 max-w-5xl mx-auto">
+                    <div class="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 card-hover">
+                        <div class="inline-flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-4">
+                            <svg class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-2">
+                            Clases en Directo
+                        </h3>
+                        <p class="text-white">
+                            Videoconferencias interactivas en tiempo real con tus profesores
+                        </p>
+                    </div>
+                    
+                    <div class="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 card-hover">
+                        <div class="inline-flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-4">
+                            <svg class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-2">
+                            Interacción Total
+                        </h3>
+                        <p class="text-white">
+                            Debates, actividades en grupo y participación activa
+                        </p>
+                    </div>
+                    
+                    <div class="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 card-hover">
+                        <div class="inline-flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-4">
+                            <svg class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-2">
+                            Material Propio
+                        </h3>
+                        <p class="text-white">
+                            Temarios de elaboración propia siempre actualizados
+                        </p>
+                    </div>
+                    
+                    <div class="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 card-hover">
+                        <div class="inline-flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-4">
+                            <svg class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2h4a1 1 0 011 1v2a1 1 0 01-1 1h-1v10a2 2 0 01-2 2H6a2 2 0 01-2-2V8H3a1 1 0 01-1-1V5a1 1 0 011-1h4zM9 3v1h6V3H9zM6 8v10h12V8H6z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-2">
+                            Apoyo Continuo
+                        </h3>
+                        <p class="text-white">
+                            Resolución de dudas fuera del horario lectivo
+                        </p>
+                    </div>
+                    
+                    <div class="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 card-hover">
+                        <div class="inline-flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-4">
+                            <svg class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-2">
+                            Plataforma 24h
+                        </h3>
+                        <p class="text-white">
+                            Acceso las 24 horas con test y autoevaluaciones
+                        </p>
+                    </div>
+                    
+                    <div class="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 card-hover">
+                        <div class="inline-flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-4">
+                            <svg class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-2">
+                            Seguimiento Personal
+                        </h3>
+                        <p class="text-white">
+                            Control semanal del progreso de cada alumno
+                        </p>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Content Section -->
+        <section class="py-16 sm:py-20 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <!-- Main Content -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <!-- Left Column - Description -->
+                    <div>
+                        <h3 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+                            Como si estuvieras en el aula, pero desde casa
+                        </h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-full flex items-center justify-center mr-4">
+                                    <span class="text-red-600 font-bold">1</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800 mb-2">Clases Dinámicas e Interactivas</h4>
+                                    <p class="text-white">Fomentamos la participación activa del alumno mediante debates y actividades en grupo</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                                    <span class="text-blue-600 font-bold">2</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800 mb-2">Atención Personalizada</h4>
+                                    <p class="text-white">Apoyo continuo fuera del horario lectivo y orientación en técnicas de estudio individualizado</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 w-8 h-8 bg-yellow-100 rounded-full flex items-center justify-center mr-4">
+                                    <span class="text-yellow-600 font-bold">3</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800 mb-2">Flexibilidad Total</h4>
+                                    <p class="text-white">Horarios flexibles, grabaciones disponibles y matrícula abierta todo el año</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Right Column - Materials -->
+                    <div class="bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-8 text-center">
+                            Materiales Incluidos
+                        </h3>
+                        
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div class="bg-white rounded-xl p-6 text-center card-hover shadow-md">
+                                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-red-500 to-blue-500 text-white rounded-full mb-4">
+                                    <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                    </svg>
+                                </div>
+                                <h4 class="font-bold text-gray-800 mb-2">
+                                    Temarios Completos
+                                </h4>
+                                <p class="text-sm text-white">
+                                    En papel y formato PDF
+                                </p>
+                            </div>
+                            
+                            <div class="bg-white rounded-xl p-6 text-center card-hover shadow-md">
+                                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-red-500 to-blue-500 text-white rounded-full mb-4">
+                                    <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                                    </svg>
+                                </div>
+                                <h4 class="font-bold text-gray-800 mb-2">
+                                    Videos Explicativos
+                                </h4>
+                                <p class="text-sm text-white">
+                                    Contenido audiovisual de apoyo
+                                </p>
+                            </div>
+                            
+                            <div class="bg-white rounded-xl p-6 text-center card-hover shadow-md">
+                                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-red-500 to-blue-500 text-white rounded-full mb-4">
+                                    <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                                    </svg>
+                                </div>
+                                <h4 class="font-bold text-gray-800 mb-2">
+                                    +4000 Preguntas Test
+                                </h4>
+                                <p class="text-sm text-white">
+                                    Banco de preguntas actualizado
+                                </p>
+                            </div>
+                            
+                            <div class="bg-white rounded-xl p-6 text-center card-hover shadow-md">
+                                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-red-500 to-blue-500 text-white rounded-full mb-4">
+                                    <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                                    </svg>
+                                </div>
+                                <h4 class="font-bold text-gray-800 mb-2">
+                                    Simulacros Reales
+                                </h4>
+                                <p class="text-sm text-white">
+                                    Ejercicios de simulación real
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 text-center">
+                            <div class="bg-white rounded-lg p-4 shadow-md">
+                                <svg class="h-6 w-6 text-blue-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <p class="font-semibold text-white">Horario de Clases</p>
+                                <p class="text-sm text-white">Las clases tienen diferentes horarios dependiendo de los grupos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="mt-16 text-center">
+                    <div class="bg-gradient-to-r from-blue-600 to-red-600 rounded-2xl p-8 text-white">
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-4 text-white">
+                            ¿Listo para comenzar tu preparación?
+                        </h3>
+                        <p class="text-lg mb-6 text-white">
+                            Únete a los más de 175 alumnos que ya han conseguido su plaza en la Universidad de Jaén
+                        </p>
+                        <div class="flex justify-center">
+                            <a href="reserva-cita.html" class="bg-yellow-500 hover:bg-yellow-400 text-black font-bold shadow-xl" style="background-color: #fbbf24 !important; color: #000000 !important; border: 4px solid #d97706 !important; py-4 px-8 rounded-full border-4 border-orange-600 hover:border-orange-700 transition-all duration-300 shadow-lg hover:scale-105">
+                                Reservar Cita Personalizada y Gratuita
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <!-- Main Footer Content -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div class="lg:col-span-1">
+                    <div class="mb-6">
+                        <h3 class="text-lg font-bold">Centro de Estudios</h3>
+                        <p class="text-red-400 font-semibold text-xl">Zenit</p>
+                    </div>
+                    <p class="text-gray-300 mb-6 text-sm">
+                        Academia especializada exclusivamente en la preparación de oposiciones públicas con más de 25 años de experiencia y resultados garantizados.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/cezenit.es" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center transition-colors duration-200" aria-label="Facebook">
+                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M20 10c0-5.523-4.477-10-10-10S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/centrozenit" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-blue-400 hover:bg-blue-500 rounded-full flex items-center justify-center transition-colors duration-200" aria-label="Twitter">
+                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6 flex items-center">
+                        <svg class="h-5 w-5 mr-2 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                        </svg>
+                        Oposiciones
+                    </h4>
+                    <ul class="space-y-3">
+                        <li><a href="#servicios" class="text-gray-300 hover:text-white transition-colors duration-200 text-sm">Universidad de Jaén - Auxiliar Administrativo</a></li>
+                        <li><a href="#servicios" class="text-gray-300 hover:text-white transition-colors duration-200 text-sm">Universidad de Jaén - Conserjerías</a></li>
+                        <li><a href="contacto.html" class="text-gray-300 hover:text-white transition-colors duration-200 text-sm">Información Personalizada</a></li>
+                        <li><a href="metodologia.html" class="text-gray-300 hover:text-white transition-colors duration-200 text-sm">Metodología</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6 flex items-center">
+                        <svg class="h-5 w-5 mr-2 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                        Enlaces Rápidos
+                    </h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html#inicio" class="text-gray-300 hover:text-white transition-colors duration-200 text-sm">Inicio</a></li>
+                        <li><a href="metodologia.html" class="text-gray-300 hover:text-white transition-colors duration-200 text-sm">Metodología</a></li>
+                        <li><a href="index.html#resultados" class="text-gray-300 hover:text-white transition-colors duration-200 text-sm">Resultados</a></li>
+                        <li><a href="contacto.html" class="text-gray-300 hover:text-white transition-colors duration-200 text-sm">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6 flex items-center">
+                        <svg class="h-5 w-5 mr-2 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg>
+                        Contacto
+                    </h4>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <svg class="h-4 w-4 mr-3 mt-1 text-red-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-300 text-sm">
+                                    Pl. Coca de la Piñera, 8<br />
+                                    entreplanta A<br />
+                                    23003 Jaén, España
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <svg class="h-4 w-4 mr-3 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <a href="mailto:oposiciones@cezenit.es" class="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
+                                oposiciones@cezenit.es
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Highlights -->
+            <div class="border-t border-gray-700 pt-8 mb-8">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 text-center">
+                    <div class="bg-red-600/10 rounded-lg p-4">
+                        <div class="text-2xl font-bold text-red-400 mb-1">90%</div>
+                        <div class="text-gray-300 text-sm">Éxito UJA</div>
+                    </div>
+                    <div class="bg-blue-600/10 rounded-lg p-4">
+                        <div class="text-2xl font-bold text-blue-400 mb-1">25+</div>
+                        <div class="text-gray-300 text-sm">Años Experiencia</div>
+                    </div>
+                    <div class="bg-yellow-600/10 rounded-lg p-4">
+                        <div class="text-2xl font-bold text-yellow-400 mb-1">100%</div>
+                        <div class="text-gray-300 text-sm">Online</div>
+                    </div>
+                    <div class="bg-green-600/10 rounded-lg p-4">
+                        <div class="text-2xl font-bold text-green-400 mb-1">24h</div>
+                        <div class="text-gray-300 text-sm">Plataforma</div>
+                    </div>
+                    <div class="bg-purple-600/10 rounded-lg p-4">
+                        <div class="text-2xl font-bold text-purple-400 mb-1" id="visitor-count">3965</div>
+                        <div class="text-gray-300 text-sm">Visitantes</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="border-t border-gray-700 pt-8">
+                <div class="flex flex-col sm:flex-row justify-between items-center">
+                    <div class="text-gray-400 text-sm mb-4 sm:mb-0">
+                        © 2025 Centro de Estudios Zenit. Todos los derechos reservados.
+                    </div>
+                    <div class="flex flex-wrap gap-6 text-sm">
+                        <a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-200">
+                            Política de Privacidad
+                        </a>
+                        <a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-200">
+                            Términos y Condiciones
+                        </a>
+                        <a href="cookies.html" class="text-gray-400 hover:text-white transition-colors duration-200">
+                            Política de Cookies
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load external CSS and JS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</body>
+</html>
